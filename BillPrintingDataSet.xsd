@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BillPrintingDataSet" targetNamespace="http://tempuri.org/BillPrintingDataSet.xsd" xmlns:mstns="http://tempuri.org/BillPrintingDataSet.xsd" xmlns="http://tempuri.org/BillPrintingDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BillPrintingDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BillPrintingDataSet" msprop:Generator_UserDSName="BillPrintingDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ItemsTable" msprop:Generator_TableClassName="ItemsTableDataTable" msprop:Generator_TableVarName="tableItemsTable" msprop:Generator_TablePropName="ItemsTable" msprop:Generator_RowDeletingName="ItemsTableRowDeleting" msprop:Generator_UserTableName="ItemsTable" msprop:Generator_RowChangingName="ItemsTableRowChanging" msprop:Generator_RowEvHandlerName="ItemsTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ItemsTableRowDeleted" msprop:Generator_RowEvArgName="ItemsTableRowChangeEvent" msprop:Generator_RowChangedName="ItemsTableRowChanged" msprop:Generator_RowClassName="ItemsTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SlNo" msprop:Generator_ColumnVarNameInTable="columnSlNo" msprop:Generator_ColumnPropNameInRow="SlNo" msprop:Generator_ColumnPropNameInTable="SlNoColumn" msprop:Generator_UserColumnName="SlNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="Rate" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_UserColumnName="Rate" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="serialnolabel" msprop:Generator_TableClassName="serialnolabelDataTable" msprop:Generator_TableVarName="tableserialnolabel" msprop:Generator_TablePropName="serialnolabel" msprop:Generator_RowDeletingName="serialnolabelRowDeleting" msprop:Generator_UserTableName="serialnolabel" msprop:Generator_RowChangingName="serialnolabelRowChanging" msprop:Generator_RowEvHandlerName="serialnolabelRowChangeEventHandler" msprop:Generator_RowDeletedName="serialnolabelRowDeleted" msprop:Generator_RowEvArgName="serialnolabelRowChangeEvent" msprop:Generator_RowChangedName="serialnolabelRowChanged" msprop:Generator_RowClassName="serialnolabelRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="productid" msprop:Generator_ColumnVarNameInTable="columnproductid" msprop:Generator_ColumnPropNameInRow="productid" msprop:Generator_ColumnPropNameInTable="productidColumn" msprop:Generator_UserColumnName="productid" type="xs:string" minOccurs="0" />
+              <xs:element name="serialno" msprop:Generator_ColumnVarNameInTable="columnserialno" msprop:Generator_ColumnPropNameInRow="serialno" msprop:Generator_ColumnPropNameInTable="serialnoColumn" msprop:Generator_UserColumnName="serialno" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
